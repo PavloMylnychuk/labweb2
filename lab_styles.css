@@ -1,0 +1,45 @@
+/* Універсальні селектори */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Селектори класів */
+.example {
+    color: blue;
+    background-color: yellow;
+}
+
+/* Селектори сусідів */
+p + p {
+    margin-top: 20px;
+}
+
+/* Селектори контекстних */
+div p {
+    font-style: italic;
+}
+
+/* Селектори атрибутів */
+a[href] {
+    color: red;
+}
+
+/* Псевдокласи */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Псевдоелементи */
+p::first-line {
+    font-weight: bold;
+}
+
+/* Інші властивості CSS */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
